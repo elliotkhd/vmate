@@ -1,0 +1,16 @@
+name: vmate
+description: State management with MVVM pattern
+version: 0.0.1
+homepage: https://github.com/elliotkhd/vmate
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
