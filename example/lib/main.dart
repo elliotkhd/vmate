@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class HomePage extends VmateWidget<HomeViewModel> {
+class HomePage extends VMateWidget<HomeViewModel> {
   const HomePage({super.key, this.initialValue = 0});
   final int initialValue;
 
