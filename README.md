@@ -50,7 +50,7 @@ class CounterViewModel extends ViewModel<CounterPage> {
 ```
 2. Create your Widget
 ```dart
-class CounterPage extends VmateWidget<CounterViewModel> {
+class CounterPage extends VMateWidget<CounterViewModel> {
   final int initialValue;
 
   const CounterPage({super.key, this.initialValue = 0});
@@ -88,7 +88,7 @@ class CounterPage extends VmateWidget<CounterViewModel> {
 
 - **VMState**: A custom State subclass that manages the ViewModel lifecycle and binds it to the widget.
 
-- **VmateWidget**: An abstract StatefulWidget that wires everything together using VMState.
+- **VMateWidget**: An abstract StatefulWidget that wires everything together using VMState.
 
 ### 🧪 Best Practices
 - Keep business logic in your ViewModel.

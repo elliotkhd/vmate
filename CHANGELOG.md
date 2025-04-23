@@ -1,3 +1,7 @@
+## 0.0.3
+
+* update README
+
 ## 0.0.2
 
 * rename VmateWidget to VMateWidget for naming consistency
